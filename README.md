@@ -21,6 +21,8 @@ Setup steps for Pop! OS on Dell XPS 13 9300
 
 ## Terminal
 
+- Change copy+paste shortcuts
+
 ## Coding Environment
 
 1. Set git credentials: `git config --global user.name "Dennis Schoepf" && git config --global user.email "dennis@schoepf.co"`
