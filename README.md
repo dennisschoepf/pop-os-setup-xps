@@ -42,6 +42,10 @@ Install:
 - Flameshot
 - Ferdi
 
+## I/O
+
+1. Install [fusuma](https://github.com/iberianpig/fusuma)
+
 ## Authentication
 
 ### Fingerprint reader
