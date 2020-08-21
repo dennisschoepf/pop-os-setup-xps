@@ -9,6 +9,32 @@ Setup steps for Pop! OS on Dell XPS 13 9300
 4. Install [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
 5. In Gnome Tweak Tool > Extensions > Dock to Dash, set: Position to Bottom, Hide favorite applications, Hide application icon, Shrink dash, Icon size: 64, Window Counter indicators to Dashes, Opacity 50%, Force straight corner
 
+### Reduce title bar height
+
+```
+headerbar entry,
+headerbar spinbutton,
+headerbar button,
+headerbar separator {
+    margin-top: 0px; /* same as headerbar side padding for nicer proportions */
+    margin-bottom: 0px;
+}
+
+headerbar {
+    min-height: 24px;
+    padding-left: 2px; /* same as childrens vertical margins for nicer proportions */
+    padding-right: 2px;
+    margin: 0px; /* same as headerbar side padding for nicer proportions */
+    padding: 0px;
+  }
+  
+  /* No line below the title bar */
+.ssd .titlebar {
+    border-width: 0;
+    box-shadow: none;
+}
+```
+
 ## Power Management
 
 1. Install tlp `sudo apt install tlp tlp-rdw`
