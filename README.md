@@ -37,6 +37,10 @@ headerbar {
 }
 ```
 
+### Enable fractional scaling
+
+`gsettings set org.gnome.mutter experimental-features "['x11-randr-fractional-scaling']"
+
 ## Power Management
 
 1. Install tlp `sudo apt install tlp tlp-rdw`
