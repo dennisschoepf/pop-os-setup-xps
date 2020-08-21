@@ -78,6 +78,7 @@ Install:
 ## I/O
 
 1. Install [fusuma](https://github.com/iberianpig/fusuma)
+2. Add `fusuma --daemon`in Startup Applications
 
 ## Authentication
 
