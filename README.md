@@ -55,6 +55,7 @@ headerbar {
 
 1. Set git credentials: `git config --global user.name "Dennis Schoepf" && git config --global user.email "dennis@schoepf.co"`
 2. Set up ssh keys `ssh-keygen`
+3. Install [zsh](https://github.com/ohmyzsh/ohmyzsh)
 
 ## Browser
 
