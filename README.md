@@ -86,32 +86,16 @@ swipe:
   3:
     left:
       command: 'xdotool key super'
-    right:
-      command: 'xdotool key super'
     up:
       command: 'xdotool key super+Up'
     down:
       command: 'xdotool key super+Down'
-  4:
-    up:
-      command: 'xdotool key super'
-    down:
-      command: 'xdotool key super'
-pinch:
-  in:
-    command: 'xdotool key super+a'
-    threshold: 0.1
-  out:
-     command: 'xdotool key super'
-     threshold: 0.1
 
 threshold:
-  swipe: 1
-  pinch: 1
+  swipe: 0.5
 
 interval:
-  swipe: 1
-  pinch: 1
+  swipe: 0.2
 ```
 
 ## Authentication
