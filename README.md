@@ -11,6 +11,8 @@ Setup steps for Pop! OS on Dell XPS 13 9300
 
 ### Reduce title bar height
 
+`sudo gedit ~/.config/gtk-3.0/gtk.css`
+
 ```
 headerbar entry,
 headerbar spinbutton,
