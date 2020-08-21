@@ -85,17 +85,17 @@ Install:
 swipe:
   3:
     left:
-      command: 'xdotool key super'
+      command: 'xdotool key Super'
     up:
-      command: 'xdotool key super+Up'
+      command: 'xdotool key Super+Up'
     down:
-      command: 'xdotool key super+Down'
+      command: 'xdotool key Super+Down'
 
 threshold:
-  swipe: 0.5
+  swipe: 0.8
 
 interval:
-  swipe: 0.2
+  swipe: 1
 ```
 
 ## Authentication
