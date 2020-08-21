@@ -79,6 +79,40 @@ Install:
 
 1. Install [fusuma](https://github.com/iberianpig/fusuma)
 2. Add `fusuma --daemon`in Startup Applications
+3. `sudo gedit ~/.config/fusuma/config.yml` with the following content:
+
+```
+swipe:
+  3:
+    left:
+      command: 'xdotool key super'
+    right:
+      command: 'xdotool key super'
+    up:
+      command: 'xdotool key super+Up'
+    down:
+      command: 'xdotool key super+Down'
+  4:
+    up:
+      command: 'xdotool key super'
+    down:
+      command: 'xdotool key super'
+pinch:
+  in:
+    command: 'xdotool key super+a'
+    threshold: 0.1
+  out:
+     command: 'xdotool key super'
+     threshold: 0.1
+
+threshold:
+  swipe: 1
+  pinch: 1
+
+interval:
+  swipe: 1
+  pinch: 1
+```
 
 ## Authentication
 
