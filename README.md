@@ -122,3 +122,11 @@ sudo apt update -qq
 sudo apt install oem-somerville-melisa-meta libfprint-2-tod1-goodix oem-somerville-meta tlp-config -y
 ```
 Then restart.
+
+# Create launchers from scripts
+
+1. Download [Arronax](https://www.florian-diesch.de/software/arronax/)
+2. Create exectuable shell script 
+3. Right-Click shell script and choose "Create a starter for this program"
+4. Change values/icons as needed
+5. Restart Gnome (Alt+F2, "r") 
