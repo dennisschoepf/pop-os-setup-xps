@@ -39,7 +39,7 @@ headerbar {
 
 ### Enable fractional scaling
 
-`gsettings set org.gnome.mutter experimental-features "['x11-randr-fractional-scaling']"
+`gsettings set org.gnome.mutter experimental-features "['x11-randr-fractional-scaling']"`
 
 ## Power Management
 
