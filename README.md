@@ -129,4 +129,6 @@ Then restart.
 2. Create exectuable shell script 
 3. Right-Click shell script and choose "Create a starter for this program"
 4. Change values/icons as needed
-5. Restart Gnome (Alt+F2, "r") 
+5. Right-Click on the Dekstop icon "Allow Launching"
+6. Move file to `~/.local/share/applications/custom-launcher.desktop`
+7. Restart Gnome (Alt+F2, "r") 
