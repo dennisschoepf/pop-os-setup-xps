@@ -123,7 +123,7 @@ sudo apt install oem-somerville-melisa-meta libfprint-2-tod1-goodix oem-somervil
 ```
 Then restart.
 
-# Create launchers from scripts
+## Create launchers from scripts
 
 1. Download [Arronax](https://www.florian-diesch.de/software/arronax/)
 2. Create exectuable shell script 
