@@ -77,6 +77,8 @@ Install:
 
 ## I/O
 
+### Fusuma
+
 1. Install [fusuma](https://github.com/iberianpig/fusuma)
 2. Add `fusuma --daemon`in Startup Applications
 3. `sudo gedit ~/.config/fusuma/config.yml` with the following content:
@@ -97,6 +99,11 @@ threshold:
 interval:
   swipe: 1
 ```
+
+### Logitech MX Master
+
+1. Install [logid](https://wiki.archlinux.org/index.php/Logitech_MX_Master)
+2. Add config file from [dotfiles repository](https://github.com/dennisschoepf/dotfiles/blob/master/logid.cfg)
 
 ## Authentication
 
